@@ -11,7 +11,7 @@ from setuptools import setup
 
 if sys.version_info[0] < 3:
     raise Exception(
-        'You are tying to install ChatterBot on Python version {}.\n'
+        'You are tying to install ChatterBot2 on Python version {}.\n'
         'Please install ChatterBot in Python 3 instead.'.format(
             platform.python_version()
         )
@@ -24,10 +24,10 @@ config_file_path = os.path.join(current_directory, 'setup.cfg')
 
 config.read(config_file_path)
 
-VERSION = config['chatterbot']['version']
-AUTHOR = config['chatterbot']['author']
-AUTHOR_EMAIL = config['chatterbot']['email']
-URL = config['chatterbot']['url']
+VERSION = config['chatterbot2']['version']
+AUTHOR = config['chatterbot2']['author']
+AUTHOR_EMAIL = config['chatterbot2']['email']
+URL = config['chatterbot2']['url']
 
 with open('README.md') as f:
     LONG_DESCRIPTION = f.read()
@@ -44,14 +44,14 @@ with open('requirements.txt') as requirements:
 
 
 setup(
-    name='ChatterBot',
+    name='ChatterBot2',
     version=VERSION,
     url=URL,
     download_url='{}/tarball/{}'.format(URL, VERSION),
     project_urls={
         'Documentation': 'https://chatterbot.readthedocs.io',
     },
-    description='ChatterBot is a machine learning, conversational dialog engine.',
+    description='ChatterBot2 is a machine learning, conversational dialog engine.',
     long_description=LONG_DESCRIPTION,
     long_description_content_type='text/markdown',
     author=AUTHOR,
@@ -73,7 +73,7 @@ setup(
     license='BSD',
     zip_safe=True,
     platforms=['any'],
-    keywords=['ChatterBot', 'chatbot', 'chat', 'bot'],
+    keywords=['ChatterBot', 'chatbot', 'chat', 'bot', 'ChatterBot2'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',

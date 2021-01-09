@@ -19,7 +19,7 @@ check out the `chatterbot_corpus/data`_ directory in the separate chatterbot-cor
    If you are interested in contributing content to the corpus, please feel free to
    submit a pull request on ChatterBot's corpus GitHub page. Contributions are welcomed!
 
-   https://github.com/gunthercox/chatterbot-corpus
+   https://github.com/schopftech/chatterbot2-corpus
 
    The ``chatterbot-corpus`` is distributed in its own Python package so that it can
    be released and upgraded independently from the ``chatterbot`` package.
@@ -44,5 +44,5 @@ Here is an example:
 .. literalinclude:: ../examples/export_example.py
    :language: python
 
-.. _chatterbot_corpus/data: https://github.com/gunthercox/chatterbot-corpus/tree/master/chatterbot_corpus/data
+.. _chatterbot_corpus/data: https://github.com/schopftech/chatterbot2-corpus/tree/master/chatterbot_corpus/data
 .. _ChatterBot Corpus Documentation: http://chatterbot-corpus.readthedocs.io/

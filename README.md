@@ -60,7 +60,7 @@ ChatterBot comes with a data utility module that can be used to train chat bots.
 At the moment there is training data for over a dozen languages in this module.
 Contributions of additional training data or training data
 in other languages would be greatly appreciated. Take a look at the data files
-in the [chatterbot-corpus](https://github.com/gunthercox/chatterbot-corpus)
+in the [chatterbot-corpus](https://github.com/schopftech/chatterbot2-corpus)
 package if you are interested in contributing.
 
 ```
